@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./about.css">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <title>School Template </title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="./Images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-square-xmark"></i>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./course.html">Courses</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                
+            </ul>
+            <img id="menu-btn" src="./Images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="about-home">
+        <h2>About TechEduca</h2>
+        
+    </section>
+    <section id="about-container">
+        <div class="about-img">
+            <img src="./Images/a.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, mollitia?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur molestiae maxime consequuntur sit delectus voluptatem quisquam asperiores est in impedit.</p>
+            <div class="about-fe">
+                <img src="./Images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>400+ Courses</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quisquam.</p>
+                </div>
+            </div>
+            <div class="about-fe">
+                <img src="./Images/fe1.png" alt="">
+                <div class="fe-text">
+                    <h5>Lifetime Access</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quisquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+    <div id="features">
+        <h1>Awesome features</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, eveniet.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+               
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ratione!</p>
+            </div>
+            <div class="fea-box">
+               
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Dell Online Courses</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ratione!</p>
+            </div>
+            <div class="fea-box">
+               
+                <i class="fa-solid fa-trophy"></i>
+                <h3>Global Certification</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, ratione!</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="trust">
+        <h1>Trusted By</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, ad.</p>
+        <div class="trust-img">
+            <img src="./Images/trust (1).png" alt="">
+            <img src="./Images/trust (2).png" alt="">
+            <img src="./Images/trust (3).png" alt="">
+            <img src="./Images/trust (4).png" alt="">
+            <img src="./Images/trust (5).png" alt="">
+            <img src="./Images/trust (6).png" alt="">
+        </div>
+    </section>
+
+
+
+
+<!-- footer section -->
+<footer>
+    <div class="footer-col">
+        <h3>Top Product</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Jobs</li>
+        <li>Brand Assets</li>
+        <li>Investor Relations</li>
+        <li>Terms of Service</li>
+    </div>
+    <div class="footer-col">
+        <h3>Features</h3>
+        <li>Manage Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>Resources</h3>
+        <li>Guide</li>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Marketing Services</li>
+    </div>
+    <div class="footer-col">
+        <h3>News Letter</h3>
+        <p>You can trust us.WE only send promo offers</p>
+        <div class="subscribe">
+            <input type="text" placeholder="Your Email Address" name="" id="">
+            <a href="#" class="yellow">Subscribe</a>
+        </div>
+    </div>
+
+
+    <div class="copyright">
+        <p>Copyright 02021 All rights reserved | This template is made by Tech Hunt</p>
+        <div class="pro-links">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+</footer>
+
+<script>
+    $('#menu-btn').click(function(){
+        $(' nav .navigation ul').addClass('active')
+    });
+    $('#menu-close').click(function(){
+        $(' nav .navigation ul').removeClass('active')
+    });
+</script>
+
+</body>
+</html>
